@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+	p {
+		text-align: left;
+		line-height: 1;
+		text-align: justify;
+		font-family: ubuntu;
+
+	}
+
+	img {
+		max-height: 100%;
+		max-width:100%;
+		display: block;
+
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	h2 {
+		text-align: center;
+		margin-bottom: 2px;
+		
+	}
+
+	.textcontainer {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+		width: 60%;
+		vertical-align: top;
+		display: inline-block;
+		text-align: left;
+		text-align: justify;
+		background-color: white;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 5px;
+		margin-bottom: 30px;
+		
+	}
+
+	.textcontainer:hover {
+		transform: scale(1.01);
+	}
+
+	.centerFlex {
+  		align-items: center;
+  		display: flex;
+  		justify-content: center;
+	}
+
+
+	
+	.text {
+		display: block;
+		text-align: left;
+		text-align: justify;
+		font-family: ubuntu;
+
+	}
+
+	.homecontainer {
+		float:left;
+		vertical-align: top;
+		display: inline-block;
+		text-align: left;
+		
+		border-radius: 15px;
+		margin-top: 30px;
+		margin-left: 5px;
+		margin-right: 5px;
+
+	}
+
+  	.left, .right {
+  		width: 24%;
+
+  	}
+
+  	.middle {
+  		width: 50%;
+  		background-color: #0093E9;
+		background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);	
+  	}
+
+  	.column:after {
+  		content: "";
+  		display: table;
+  		clear: both;  	}
+
+	body {
+		background-color: #e5e5e5
+
+	}
+
+</style>
+</head>
+</html>
+
